@@ -1,0 +1,13 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "packet_analyzer.exe",
+      "name": "packet_analyzer.exe",
+      "args": [ "${workspaceRoot}/test_dpi.pcap" ]
+    }
+  ]
+}

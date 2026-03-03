@@ -16,7 +16,7 @@ set(SOURCES
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Create the executable
-add_executable(packet_analyzer ${SOURCES})
+add_executable(packet_analyzer ${SOURCES} "CMakeSettings.json")
 
 # For macOS, we might need to link against system libraries later
 if(APPLE)
