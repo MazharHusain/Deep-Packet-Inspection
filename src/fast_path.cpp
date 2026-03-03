@@ -5,9 +5,6 @@
 
 namespace DPI {
 
-// ============================================================================
-// FastPathProcessor Implementation
-// ============================================================================
 
 FastPathProcessor::FastPathProcessor(int fp_id,
                                      RuleManager* rule_manager,

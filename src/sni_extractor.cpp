@@ -15,7 +15,7 @@ uint32_t SNIExtractor::readUint24BE(const uint8_t* data) {
 }
 
 bool SNIExtractor::isTLSClientHello(const uint8_t* payload, size_t length) {
-    // Minimum TLS record: 5 bytes header + 4 bytes handshake header
+    // Minimum TLS record: 5 bytes header + 4 bytes handshake Header
     if (length < 9) return false;
     
     // Check TLS record header

@@ -7,7 +7,7 @@
 #include <cstdint>
 
 // Portable byte order conversion
-// Works on any platform without requiring system headers
+// Works on any platform without requiring System headers
 namespace PortableNet {
 
 inline uint16_t swapBytes16(uint16_t value) {

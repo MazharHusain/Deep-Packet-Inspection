@@ -4,9 +4,6 @@
 
 namespace DPI {
 
-// ============================================================================
-// LoadBalancer Implementation
-// ============================================================================
 
 LoadBalancer::LoadBalancer(int lb_id,
                            std::vector<ThreadSafeQueue<PacketJob>*> fp_queues,

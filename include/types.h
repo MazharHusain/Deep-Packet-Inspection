@@ -26,7 +26,7 @@ struct FiveTuple {
                protocol == other.protocol;
     }
     
-    // Create reverse tuple (for matching bidirectional flows)
+    // Create reverse tuple (for matching bidirectional Flows)
     FiveTuple reverse() const {
         return {dst_ip, src_ip, dst_port, src_port, protocol};
     }

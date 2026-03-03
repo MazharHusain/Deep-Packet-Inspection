@@ -81,7 +81,7 @@ int main(int argc, char* argv[]) {
     std::string input_file = argv[1];
     std::string output_file = argv[2];
     
-    // Parse options
+    // Parse option
     DPIEngine::Config config;
     config.num_load_balancers = 2;
     config.fps_per_lb = 2;

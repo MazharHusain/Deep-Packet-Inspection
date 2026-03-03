@@ -25,7 +25,7 @@ struct Flow {
     bool blocked = false;
 };
 
-// Blocking rules
+// Blocking rule
 class BlockingRules {
 public:
     std::unordered_set<uint32_t> blocked_ips;

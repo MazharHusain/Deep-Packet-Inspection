@@ -47,7 +47,7 @@ bool PacketParser::parse(const RawPacket& raw, ParsedPacket& parsed) {
         }
     }
     
-    // Set payload information
+    // Set paylod information
     if (offset < len) {
         parsed.payload_length = len - offset;
         parsed.payload_data = data + offset;

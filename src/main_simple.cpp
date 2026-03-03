@@ -41,7 +41,7 @@ int main(int argc, char* argv[]) {
         
         // Try SNI extraction for HTTPS packets
         if (parsed.has_tcp && parsed.dest_port == 443 && parsed.payload_length > 0) {
-            // Calculate payload offset
+            // Calculat payload offset
             size_t payload_offset = 14;  // Ethernet
             uint8_t ip_ihl = raw.data[14] & 0x0F;
             payload_offset += ip_ihl * 4;

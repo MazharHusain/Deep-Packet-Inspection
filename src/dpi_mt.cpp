@@ -25,9 +25,6 @@
 using namespace PacketAnalyzer;
 using namespace DPI;
 
-// =============================================================================
-// Thread-Safe Queue
-// =============================================================================
 template<typename T>
 class TSQueue {
 public:
