@@ -4,10 +4,6 @@
 
 namespace DPI {
 
-// ============================================================================
-// TLS SNI Extractor Implementation
-// ============================================================================
-
 uint16_t SNIExtractor::readUint16BE(const uint8_t* data) {
     return (static_cast<uint16_t>(data[0]) << 8) | data[1];
 }

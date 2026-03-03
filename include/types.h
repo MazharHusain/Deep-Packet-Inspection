@@ -11,9 +11,6 @@
 
 namespace DPI {
 
-// ============================================================================
-// Five-Tuple: Uniquely identifies a connection/flow
-// ============================================================================
 struct FiveTuple {
     uint32_t src_ip;
     uint32_t dst_ip;
