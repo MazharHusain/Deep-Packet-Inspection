@@ -1,5 +1,0 @@
-# ninja log v6
-17	1039	7939759933510634	CMakeFiles/packet_analyzer.dir/src/pcap_reader.cpp.obj	c3974414114af06d
-26	1141	7939759933596121	CMakeFiles/packet_analyzer.dir/src/packet_parser.cpp.obj	1a4206db202fe882
-8	1157	7939759933419345	CMakeFiles/packet_analyzer.dir/src/main.cpp.obj	31f6dd677c0cf2b4
-1157	1684	7939759944912455	packet_analyzer.exe	e78dd4fafebe09a0
